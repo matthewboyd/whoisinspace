@@ -5,10 +5,6 @@ import (
 	"net/http"
 )
 
-type User struct {
-	Username string
-	Password string
-}
 
 type Response struct {
 	NumOfPeopleInSpace int      `json:"number"`
